@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+
+}
+body{
+    background-image: url(./img/orqa\ fon\ bir.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
 }
 .box{
     margin: 0;
@@ -17,6 +25,7 @@
     width: 400px;
 }
 .box p{
+    
     text-align: center;
     width: 500px;
     margin-left: auto;
@@ -25,6 +34,23 @@
     margin-top: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
 }
+p {
+  margin: 20px 0;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #ffffff, #dddddd);
+  color: black;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  line-height: 1.8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, background 0.3s;
+}
+
+p:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+}
+
 .box h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -73,6 +99,7 @@
     transition: all 0.2s ease-in-out;
     background-size: 100% 100%;
     background-position: center;
+
   }
   
   .golden-button:focus,
@@ -82,11 +109,27 @@
       inset 0 -2px 5px 1px #b17d10, inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
     border: 1px solid rgba(165, 93, 7, 0.6);
     color: rgba(120, 50, 5, 0.8);
+    background-image: linear-gradient(
+        160deg,
+        #a54e07,
+        #b47e11,
+        #fef1a2,
+        #bc881b,
+        #a54e07
+      );
   }
   
   .golden-button:active {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(110, 80, 20, 0.4),
       inset 0 -2px 5px 1px #b17d10, inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
+      background-image: linear-gradient(
+        160deg,
+        #a54e07,
+        #b47e11,
+        #fef1a2,
+        #bc881b,
+        #a54e07
+      );
   }
   
 
@@ -94,4 +137,12 @@
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
+    background-image: linear-gradient(
+        160deg,
+        #a54e07,
+        #b47e11,
+        #fef1a2,
+        #bc881b,
+        #a54e07
+      );
 }
