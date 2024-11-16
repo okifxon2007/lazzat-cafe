@@ -9,13 +9,12 @@
 .conta{
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
+    max-width: 600px;
 }
 .box img{
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
+    margin-left: 50px;
+    width: 400px;
 }
 .box p{
     text-align: center;
@@ -32,16 +31,17 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    margin-left: 140px;
 }
 .box button{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 160px;
     display: flex;
 }
 
 
 /* From Uiverse.io by elijahgummer */ 
 .golden-button {
+
     margin-bottom: 20px;
     touch-action: manipulation;
     display: inline-block;
